@@ -22,7 +22,7 @@ print(f'division={a}/{b}={division}')
 FloorDivision=a//b
 print(f'FloorDivision={a}//{b}={FloorDivision}')
 
-#Modulus(Reminder)
+#Modulus(Remainder)
 Modulus=a%b
 print(f'Modulus={a}%{b}={Modulus}')
 
