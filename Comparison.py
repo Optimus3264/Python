@@ -17,7 +17,7 @@ print('a>b:', a>b) #True
 print('a!=b:',a!=b) #True
 
 #a is less than or equal to b (<=)
-print('a<=b', a<=b)
+print('a<=b', a<=b) #False
 
 #a is greater than or equal to b (>=)
-print('a>=b', a>=b)
+print('a>=b', a>=b) #False
