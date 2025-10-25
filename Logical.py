@@ -1,16 +1,16 @@
-#Variables for demonstration
-a=True
-b=False
+# Variables for demonstration
+a = True
+b = False
 
-print('a=',a)
-print('b=',b)
+print("a =", a)
+print("b =", b)
 
-#AND
-print('a and b=', a and b)
+# Logical AND
+print("a and b:", a and b)  # False (Both need to be True)
 
-#OR
-print('a or b=', a or b)
+# Logical OR
+print("a or b:", a or b)    # True (At least one needs to be True)
 
-#NOT
-print('not a=', not a) #negates the value of a
-print('not b=', not b) #negates the value of b
+# Logical NOT
+print("not a:", not a)      # False (Negates the value of a)
+print("not b:", not b)      # True (Negates the value of b)
