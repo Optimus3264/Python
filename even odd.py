@@ -1,5 +1,7 @@
-num = int(input('enter a number: '))
-if num %2== 0: 
-    print('even')
-else:
-    print('odd')    
+def even_odd(num):
+    if num%2==0:
+        return f"{num} is even"
+    else:
+        return f"{num} is odd"
+print(even_odd(3))
+    
