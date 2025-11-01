@@ -1,3 +1,4 @@
-def greet():
-    print('hello rushi ,welcome')
-greet()
+def Greet ():
+    print("Hello, welcome Bhushan")
+
+Greet()
