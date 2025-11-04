@@ -1,14 +1,20 @@
-#s='hello ,how are you '
-#word_count=len(s.split())
+salary = 50000
+date = '1 Jan 2025'
 
-#print(word_count)
+message = f'my salary {salary} will be credited on {date}'
+print(message)
 
-def remove_vowel(s):
-    vowels='aeiouAEIOU'
-    result=''.join ([char for char in s if char not in vowels])
-    return result
+x = 10
+y = 5
 
-input_str=input('enter a string')
-output_str=remove_vowel(input_str)
+result =f'the sum of {x} and {y} is {x+y}'
+print(result)
 
-print('string after removing vowels',output_str)
+result =f'the substraction of {x} and {y} is {x-y}'
+print(result)
+
+result =f'the multiplication of {x} and {y} is {x*y}'
+print(result)
+
+result =f'the division of {x} and {y} is {x/y}'
+print(result)
