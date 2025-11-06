@@ -1,46 +1,30 @@
-str1='hey'
-str2='python'
-#combinig string
+#add,append,insert,remove,join,slice,pop
 
-#result=str1 + ' ' +str2
+x=[11,12,13,14,15,16,17,18,19,20]
+y=[1,2,3]
+
+#a='hello'
+#b='kolhapur'
+#x.append(21)
+#print(x)
+
+#x.insert(3, 13.5)
+#print(x)
+
+#x.remove(13.5)
+#print(x)
+
+#popped_item=x.pop()
+#print(x)
+
+#string addition
+#result=a+' '+b
 #print(result)
 
-#repitation
-str3='hey'
-repeated=str3*4
-#print(repeated)
+#list slice
+#print(x[0:5])
+#print(x[5:])
+#print(x[0:4])
 
-#Indexing
-str4='python'
-#print(str4[2])
-#print(str4[-2])
-
-#slicing
-str5='hey python'
-#print(str5[:2])
-#print(str5[2:])
-#print(str5[0:2])
-
-#length
-str6='gaurav'
-#print(len(str6))
-
-#change case
-a='hello'
-#print(a.upper())
-#print(a.title())
-#print(a.lower())
-#print(a.capitalize())
-
-#find substring
-a='hello world'
-#print(a.find('world'))
-#print(a.find('python'))
-
-#replace
-a='hey bhushan'
-#print(a.replace('hey','hi'))
-
-#trimming
-a='hey bhushan   '
-print(a.strip())-
+add= x+y
+print(add)
