@@ -1,0 +1,23 @@
+a = 10
+b = 8
+ 
+#addition
+print(a + b)
+
+#substraction
+print(a - b)
+
+#multiplication
+print(a * b)
+
+#Division
+print(a / b)
+
+#floor division
+print(a // b)
+
+#modulus
+print(a % b)
+
+#Exponentiation
+print(a ** b)
