@@ -1,0 +1,24 @@
+a = 5
+
+#assign
+print('a:',a)
+
+#add and assign
+a +=10
+print('a:',a)
+
+#substract and assign
+a -=3
+print('a:',a)
+
+#multipy and assign
+a *=5
+print('a:',a)
+
+#divide and assign 
+a /= 5
+print('a:',a)
+
+#module and assign
+a //=2
+print('a:',a) 
