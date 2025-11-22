@@ -1,0 +1,20 @@
+a = 15
+b = 10
+
+#and
+print('a & b:',a &b)
+
+#OR
+print('a | b:',a|b)
+
+#XOR
+print('a ^ b :', a^b)
+
+#Not
+print('~a:',~a)
+
+#left shift
+print('a <<1:', a<<b)
+
+#right shift
+print('a>>1:', a>>b)
