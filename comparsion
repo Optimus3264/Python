@@ -1,0 +1,20 @@
+x = 20
+y= 10
+
+#equal to
+print(x == y)
+
+#not equal to
+print(x != y)
+
+#Greater than
+print(x<y)
+
+#less than
+print(x > y)
+
+#Greater than or equal
+print(x <= y)
+
+#Less than or equal
+print(x >= y)
