@@ -1,0 +1,40 @@
+str1 = 'Hello'
+str2 = 'World'
+
+print(str1+ " "+ str2)
+
+string = "Hello"
+result = string*3
+print(result)
+
+string = "Hello world"
+print('Hello' in string)
+print('python' not in string)
+
+str1 = "bike"
+str2 = "car"
+
+print(str1==str2)
+print(str1 < str2)
+print(str1!=str2)
+print(str1>str2)
+print(str1<=str2)
+print(str1>=str2)
+
+string = "Hello"
+substring =string[0:10]
+print(substring)
+
+name = "Rushikesh"
+game = 'football'
+
+f_str = "my name is %s and i love to play %s"  %(name, game)
+print(f_str)
+
+name = 'Bhushan'
+game = 'cricket'
+f_str = "my name is {} and i love to play {}" .format(name , game)
+print(f_str)
+
+string = 'hello\nworld'
+print(string)
